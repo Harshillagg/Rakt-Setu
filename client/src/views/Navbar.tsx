@@ -40,7 +40,7 @@ function NavBar() {
             <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </NavLink>
           <NavLink
-            to="/About"
+            to="/about"
             className={({ isActive }) =>
               `relative text-lg px-4 py-3 ${isActive ? "bg-red-800 text-white" : "text-white"} group`
             }
@@ -49,7 +49,7 @@ function NavBar() {
             <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </NavLink>
           <NavLink
-            to="/LookingForblood"
+            to="/lookingforblood"
             className={({ isActive }) =>
               `relative text-lg px-4 py-3 ${isActive ? "bg-red-800 text-white" : "text-white"} group`
             }
@@ -58,7 +58,7 @@ function NavBar() {
             <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-800 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </NavLink>
           <NavLink
-            to="/DonateBlood"
+            to="/donateblood"
             className={({ isActive }) =>
               `relative text-lg px-4 py-3 ${isActive ? "bg-red-800 text-white" : "text-white"} group`
             }

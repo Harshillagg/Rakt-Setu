@@ -7,6 +7,7 @@ import {
 import Home from "./views/Home";
 import Navbar from "./views/Navbar";
 import Error from "./views/Error";
+import LookingforBlood from "./views/LookingforBlood";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<Navigate to="/Error" />} />
-        <Route path="/Error" element={<Error />} />
+        <Route path="/lookingforblood" element={<LookingforBlood />} />
+        <Route path="*" element={<Navigate to="/error" />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
     </Router>
   );

@@ -3,7 +3,7 @@ import { PiBankFill } from "react-icons/pi"
 
 const Home = () => {
   return (
-    <div className='pt-20 min-h-screen bg-[url("/Designer.png")] bg-center bg-cover bg-gray-700 bg-opacity-95 bg-blend-multiply '>
+    <div className='pt-20 min-h-screen bg-[url("/Designer.png")] bg-center bg-cover bg-gray-800 bg-opacity-95 bg-blend-multiply '>
         <div className="p-12">
 
             <div className="flex items-center">
